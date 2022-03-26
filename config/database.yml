@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: macrameyes_production
-  username: macrameyes
-  password: <%= ENV["MACRAMEYES_DATABASE_PASSWORD"] %>
+  url: <%= ENV["DATABASE_URL"] %>
