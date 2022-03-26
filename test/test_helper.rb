@@ -3,6 +3,7 @@ require_relative "../config/environment"
 require "rails/test_help"
 require "minitest/autorun"
 require "minitest/focus"
+require 'mocha/minitest'
 
 class ActiveSupport::TestCase
   # Run tests in parallel with specified workers
