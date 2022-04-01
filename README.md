@@ -1,5 +1,7 @@
 # MacrameYes.com
 
+[![Ruby on Rails CI](https://github.com/MacrameYes/macrameyes.com/actions/workflows/ci.yml/badge.svg)](https://github.com/MacrameYes/macrameyes.com/actions/workflows/ci.yml)
+
 Take your Macrame to the next level.
 
 ## Tech stack
