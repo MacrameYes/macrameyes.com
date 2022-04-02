@@ -70,6 +70,9 @@ group :development do
 
   gem 'brakeman'
   gem 'bundle-audit'
+
+  # Preview email in the default browser instead of sending it.
+  gem 'letter_opener_web', '~> 2.0'
 end
 
 group :test do
